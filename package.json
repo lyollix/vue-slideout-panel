@@ -1,0 +1,35 @@
+{
+  "name": "vue-slideout-panel",
+  "version": "1.0.0",
+  "description": "SlideoutPanel Component for Vue.js",
+  "author": "lyollix <lyollix@gmail.com>",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyollix/vue-slideout-panel.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "slide",
+    "slideout",
+    "vue panel",
+    "vue slide panel",
+    "vue-slideout-panel"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress --hide-modules"
+  },
+  "peerDependencies": {
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {
+    "babili-webpack-plugin": "^0.1.1",
+    "css-loader": "^0.28.0",
+    "vue-loader": "^12.1.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.1"
+  }
+}
