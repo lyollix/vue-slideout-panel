@@ -290,7 +290,7 @@ export default {
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 2000;
+    z-index: auto;
     background-color: rgba(0, 0, 0, .3);
   }
   .dock {
@@ -298,7 +298,7 @@ export default {
     top: 0;
     right: 0;
     height: 100%;
-    z-index: 3000;
+    z-index: auto;
     box-shadow: -3px 3px 9px rgba(0, 0, 0, 0.3);
     overflow: hidden;
   }
